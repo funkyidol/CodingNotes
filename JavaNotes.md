@@ -54,7 +54,7 @@ HashTable
 ----
 
 #### Static Keyword
-* **Variable:** Gets the memory in class area at tie of class loading
+* **Variable:** Gets the memory in class area at time of class loading
 * **Method:**
  * Belongs to a class rather than an object.
  * Can access static data members
@@ -64,6 +64,6 @@ HashTable
 * **Nested Class**
 
 #### Final Keyword
-* **Variable:** value cannot be modified. Blank variables have to be initialized in constructor.
-* **Method:** Cannot be overriden
+* **Variable:** Value cannot be modified. Blank variables have to be initialized in constructor.
+* **Method:** Cannot be overridden
 * **Class:** Cannot be extended

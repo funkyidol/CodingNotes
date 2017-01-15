@@ -4,6 +4,7 @@
 The basic idea of Set is the mathematical definition of set where it doesn't allow duplication
 
 **Type of sets**
+
 1. HashSet
  * Stores elements in `HashTable`
  * Best performance
@@ -17,11 +18,12 @@ The basic idea of Set is the mathematical definition of set where it doesn't all
  * Order by insertion
  * Slightly slower than HashSet
 
-** Basic Bulk Operations **
+**Basic Bulk Operations**
+
 1. `s1.containAll(s2)` - returns true if s2 is subset of s1
 2. `s1.addAll(s2)` - makes s1 a union of s1 & s2
 3. `s1.retainAll(s2)` - makes s1 an intersection of s1 & s2
-4. `s1.removeAll(s2)` - makes s1 an assymetric difference of s1 & s2. i.e. contains elements of s1 and removes all elements present in s2
+4. `s1.removeAll(s2)` - makes s1 an asymmetric difference of s1 & s2. i.e. contains elements of s1 and removes all elements present in s2
 
 ### List Interface
 
@@ -33,7 +35,8 @@ The basic idea of Set is the mathematical definition of set where it doesn't all
 
 ----
 
-#### HashSet vs HashMap vs HashTable
+#### HashSet vs HashMap vs HashTable ####
+
 HashSet
 * Does not allow duplicate values
 * Internally its just HashMap where all elements are stored as keys which ensure zero duplication

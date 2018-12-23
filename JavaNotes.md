@@ -59,10 +59,10 @@ HashTable
 #### Static Keyword
 * **Variable:** Gets the memory in class area at time of class loading
 * **Method:**
- * Belongs to a class rather than an object.
- * Can access static data members
- * Cannot access non-static variables or methods
- * `this` & `super` cannot be used in this methods
+  * Belongs to a class rather than an object.
+  * Can access static data members
+  * Cannot access non-static variables or methods
+  * `this` & `super` cannot be used in this methods
 * **Block:** Executed before main
 * **Nested Class**
 

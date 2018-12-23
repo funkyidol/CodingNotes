@@ -34,3 +34,6 @@ verify(mock).mockMethod(acARgument.capture());
  - A single `ArgumentCaptor` can be used to capture arguments mutiple times of the same type in a single test
 
 3. Use `getValue()` or `getValues()` on `ArgumentCaptor` depending if multiple captures were made to fetch the captured argument and then assert or further test the argument/s.
+
+Additional Links
+ - [Mockito ArgumentCaptor](https://www.journaldev.com/21892/mockito-argumentcaptor-captor-annotation)
